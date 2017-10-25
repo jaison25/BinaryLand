@@ -18,7 +18,7 @@ public class Round {
 			String in = br.readLine();
 			String temp = "";
 			String linea;
-			field = new char[Integer.parseInt(in.split(" +")[0])][Integer.parseInt(in.split(" +")[1])];
+			field = new char[15][12];
 			for (int i = 0; i < field.length; i++) {
 				field [i] = br.readLine().toCharArray();
 			}
